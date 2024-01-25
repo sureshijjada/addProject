@@ -1,0 +1,9 @@
+/* Write your CSS code here */
+.unordList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.list {
+  list-style-type: none;
+}

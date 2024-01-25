@@ -1,0 +1,62 @@
+.list-container {
+  height: 150px;
+  width: 300px;
+  border: 2px solid rgb(218, 236, 218);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 3px;
+  list-style-type: none;
+  background-color: rgb(210, 224, 236);
+}
+.projectNameHeading {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(39, 30, 33);
+}
+.projectInfoText {
+  font-size: 15px;
+  color: rgb(39, 30, 33);
+  font-style: italic;
+}
+.aboutBtn {
+  height: 30px;
+  width: 100px;
+  color: rgb(221, 110, 36);
+  font-weight: bold;
+  border: 1px solid violet;
+  border-radius: 5px;
+  padding: 5px;
+}
+@media (max-width: 576px) {
+  .list-container {
+    height: 120px;
+    width: 150px;
+    border: 2px solid rgb(218, 236, 218);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    list-style-type: none;
+    background-color: rgb(210, 224, 236);
+  }
+  .projectNameHeading {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(39, 30, 33);
+}
+.projectInfoText {
+  font-size: 12px;
+  color: rgb(39, 30, 33);
+  font-style: italic;
+}
+.aboutBtn {
+  height: 20px;
+  width: 80px;
+  color: rgb(221, 110, 36);
+  font-weight: bold;
+  border: 1px solid violet;
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 8px;
+  margin-bottom: 3px;
+}
+}

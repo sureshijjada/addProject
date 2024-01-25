@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.home-container {
+  height: 90%;
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+.ui-text {
+  font-size: 20px;
+  color: blue;
+}
+.heading {
+  font-size: 30px;
+  color: rgb(3, 30, 7);
+}
+.text {
+  font-size: 15px;
+  color: rgb(4, 6, 36);
+}
+.home-subcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.btn {
+  height: 30px;
+  width: 100px;
+  border: 2px solid grey;
+  border-radius: 8px;
+  margin: 15px;
+  color: rgb(226, 205, 223);
+  font-size: 16px;
+  background-color: rgb(19, 30, 62);
+}
